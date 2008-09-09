@@ -1,0 +1,16 @@
+IcyRuby
+=======
+
+IcyRuby was developed to connect to a remote shoutcast server and parse out the track titles as the stream plays. This plugin 
+will run as a daemon and will update two models (IcyTrack & IcyPlaylist) with information about specific songs being played 
+and keeping record of the amount of times they have been played.
+
+Example
+=======
+
+To kick off the process for now, do:
+
+script/runner script/start_icy_ruby.rb  RAILS_ENV=development 
+
+
+Copyright (c) 2008 Garrett Kelly, released under the GPL license
